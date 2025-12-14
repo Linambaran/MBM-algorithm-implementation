@@ -49,7 +49,29 @@ python demo_validation.py --instance data/matching_Gxx_Nxx.json
 ```
 
 ## Output
-<p align="center" width="100%">
-  <img width="650" height="480" alt="screenshot-2025-12-14_17 37 25" src="https://github.com/user-attachments/assets/004f9be4-778a-4ff7-a03e-0ad18ead7778" />
-</p>
+```bash
+-> python run.py --instance data/matching_G10_N1000.json --algo A
+Loading instance: data/matching_G10_N1000.json (Project: matching)
+--------------------------------------------------
+Algorithm  : DFS Kuhn
+Result     : 1000 pairs
+Time       : 1127.4417 ms
+Gap        : 0.0000
+--------------------------------------------------
+
+-> python run.py --instance data/matching_G10_N1000.json --algo B
+Loading instance: data/matching_G10_N1000.json (Project: matching)
+--------------------------------------------------
+Algorithm  : Hopcroft-Karp
+Result     : 1000 pairs
+Time       : 52.0293 ms
+Gap        : 0.0000
+--------------------------------------------------
+
+-> python demo_validation.py --instance data/matching_G10_N1000.json
+--- Hasil Eksekusi ---
+Algorithm A (DFS Kuhn) Result: 1000
+Algorithm B (Hopcroft-Karp) Result: 1000
+Status: MATCH (Valid)
+```
 
