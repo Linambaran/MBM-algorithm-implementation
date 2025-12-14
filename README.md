@@ -75,6 +75,3 @@ Algorithm B (Hopcroft-Karp) Result: 1000
 Status: MATCH (Valid)
 ```
 
-[marisa&#39;s-butt-touhou](https://github.com/user-attachments/assets/796db778-b7eb-4363-9cdc-506361a8931b)
-
-
