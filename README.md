@@ -21,28 +21,29 @@ DAA_Instances/
 ```
 
 ## How to EXECUTE!
-### Git clone/download as ZIP lalu extract terlebih dahulu repo ini
+### Clone/Download ZIP Repository
    ```bash
    git clone https://github.com/Linambaran/MBM-algorithm-implementation
    ```
-
-### Buka terminal di direktori repo ini, lalu jalankan:
+   Note: Setelah git clone/extract, buka terminal dan arahkan ke direktori dimana repositori ini disimpan.
+   
+### Generate Instances
   ```bash
   python generate_instances.py
   ```
-  Note: Di dalam repo ini, terdapat folder **'data'** yang berisi pre-generated instances juga. Jadi, tahapan ini adalah **opsional**
+  Note: Di dalam repo ini, terdapat folder **'data'** yang berisi pre-generated instances juga. Jadi, tahapan ini adalah **opsional**.
 
-### Untuk benchmark Algo A/DFS, jalankan command:
+### Benchmarking Algorithm A (DFS)
   ```bash
    python run.py --instance data/matching_Gxx_Nxx.json --algo A
   ```
 
-### Untuk benchmark Algo B/HK, jalankan command:
+### Benchmarking Algorithm B (Hopcroft-Karp)
   ```bash
    python run.py --instance data/matching_Gxx_Nxx.json --algo B
   ```
 
-### Jalankan command berikut untuk membandingkan output kedua algoritma:
+### Output Comparison Between Them
 ```bash 
 python demo_validation.py --instance data/matching_Gxx_Nxx.json
 ```
