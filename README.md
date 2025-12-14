@@ -16,4 +16,5 @@ DAA_Instances/
 ├─ data/                  # Menyimpan file dataset (.json)
 ├─ run.py                 # Script utama untuk menjalankan benchmark
 ├─ generate_instances.py  # Script generator dataset graf random
-└─ README.md              # Dokumentasi ini
+├─ README.md              # Dokumentasi
+└─ demo_validation.py     # Output ringkas dan dapat digunakan untuk membandingkan kedua algoritma
