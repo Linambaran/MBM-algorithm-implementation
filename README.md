@@ -28,4 +28,5 @@ DAA_Instances/
 5. Command **python demo_validation.py** hanya untuk keperluan membandingkan output, yang mana seharusnya tidak akan ada perbedaan (kecuali terdapat bug).
 
 ## Output
-<img width="643" height="538" alt="image" src="https://github.com/user-attachments/assets/a4df23c9-31bb-4305-b18c-ded7680579f8" />
+<img width="657" height="482" alt="image" src="https://github.com/user-attachments/assets/f7f5787e-e152-459f-b5bc-50015edfcbe8" />
+
