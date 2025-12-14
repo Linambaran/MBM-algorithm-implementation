@@ -18,3 +18,11 @@ DAA_Instances/
 ├─ generate_instances.py  # Script generator dataset graf random
 ├─ README.md              # Dokumentasi
 └─ demo_validation.py     # Output ringkas dan dapat digunakan untuk membandingkan kedua algoritma
+```
+
+## How to EXECUTE!
+1. Git clone/download as ZIP lalu extract terlebih dahulu repo ini.
+2. Buka terminal di direktori repo ini, jalankan command **python generate_instances.py** jika folder data belum ada (bisa diabaikan karena repo ini sudah terdapat contoh dataset yang telah di-generate).
+3. Untuk benchmark **Algo A/DFS**, jalankan command **python run.py --instance data/matching_G01_N100.json --algo A**.
+4. Untuk benchmark **Algo B/HK**, jalankan command **python run.py --instance data/matching_G01_N100.json --algo B**.
+5. Command **python demo_validation.py** hanya untuk keperluan membandingkan output, yang mana seharusnya tidak akan ada perbedaan (kecuali terdapat bug).
