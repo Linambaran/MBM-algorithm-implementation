@@ -25,6 +25,7 @@ DAA_Instances/
    ```bash
    git clone https://github.com/Linambaran/MBM-algorithm-implementation
    ```
+
 ### Buka terminal di direktori repo ini, lalu jalankan:
   ```bash
   python generate_instances.py
@@ -35,10 +36,12 @@ DAA_Instances/
   ```bash
    python run.py --instance data/matching_Gxx_Nxx.json --algo A
   ```
+
 ### Untuk benchmark Algo B/HK, jalankan command:
   ```bash
    python run.py --instance data/matching_Gxx_Nxx.json --algo B
   ```
+
 ### Jalankan command berikut untuk membandingkan output kedua algoritma:
 ```bash 
 python demo_validation.py --instance data/matching_Gxx_Nxx.json
