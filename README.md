@@ -20,12 +20,29 @@ DAA_Instances/
 └─ demo_validation.py     # Output ringkas dan dapat digunakan untuk membandingkan kedua algoritma
 ```
 
-## How to EXECUTE!
-1. Git clone/download as ZIP lalu extract terlebih dahulu repo ini.
-2. Buka terminal di direktori repo ini, jalankan command **python generate_instances.py** jika folder data belum ada (bisa diabaikan karena repo ini sudah terdapat contoh dataset yang telah di-generate).
-3. Untuk benchmark **Algo A/DFS**, jalankan command **python run.py --instance data/matching_G01_N100.json --algo A**.
-4. Untuk benchmark **Algo B/HK**, jalankan command **python run.py --instance data/matching_G01_N100.json --algo B**.
-5. Command **python demo_validation.py** hanya untuk keperluan membandingkan output, yang mana seharusnya tidak akan ada perbedaan (kecuali terdapat bug).
+# How to EXECUTE!
+**- Git clone/download as ZIP lalu extract terlebih dahulu repo ini**
+   ```bash
+   git clone https://github.com/Linambaran/MBM-algorithm-implementation
+   ```
+**- Buka terminal di direktori repo ini, lalu jalankan:**
+  ```bash
+  python generate_instances.py
+  ```
+  Note: Di dalam repo ini, terdapat folder **'data'** yang berisi pre-generated instances juga. Jadi, tahapan ini adalah **opsional**
+
+**- Untuk benchmark Algo A/DFS, jalankan command:**
+  ```bash
+   python run.py --instance data/matching_Gxx_Nxx.json --algo A
+  ```
+**- Untuk benchmark Algo B/HK, jalankan command:**
+  ```bash
+   python run.py --instance data/matching_Gxx_Nxx.json --algo B
+  ```
+**- Jalankan command berikut untuk membandingkan output kedua algoritma**
+```bash 
+python demo_validation.py --instance data/matching_Gxx_Nxx.json
+```
 
 ## Output
 <p align="center" width="100%">
