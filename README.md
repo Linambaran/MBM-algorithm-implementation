@@ -3,13 +3,10 @@
 Repositori ini berisi implementasi dan benchmarking algoritma untuk menyelesaikan masalah **Maximum Bipartite Matching**.
 
 **Mata Kuliah:** Desain dan Analisis Algoritma  
-**Kelompok:** 2  
-
-## Anggota
-1. Linambaran Faradha Qisthas (L0224022)
+**Kelompok:** 2 - Linambaran Faradha Qisthas (L0224022)
 
 ## Algoritma
-Kami membandingkan dua pendekatan:
+Membandingkan dua pendekatan:
 1.  **Algo A (Baseline):** DFS Based (Kuhn's Algorithm) - Kompleksitas $O(V \cdot E)$.
 2.  **Algo B (Optimized):** Hopcroft-Karp Algorithm - Kompleksitas $O(E \sqrt{V})$.
 
